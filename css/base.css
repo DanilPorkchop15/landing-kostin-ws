@@ -1,18 +1,26 @@
 @import url(./utils/vars.css);
 
-.page {
-  display: grid;
-  grid-template-columns: 32px 1fr 32px !important;
-}
-
-
 .header, .main, .footer {
   display: flex;
   flex-direction: column;
-  margin-inline: 32px;
+  padding-inline: 132px;
 }
 
+.header {
+  background: var(--white);
+}
 
+.main { 
+  background: var(--white);
+}
+
+.footer{
+  background: var(--gray-blue-1);
+}
+
+.main.main-about-test {
+  background: var(--gray-blue-1);
+}
 .text {
   font-size: var(--f-size-base);
   list-style: var(--l-height-base);
