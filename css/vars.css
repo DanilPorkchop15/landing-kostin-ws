@@ -39,6 +39,12 @@
   --f-size-h2: 40px;
   --f-size-h1: 64 px;
   --f-size-hint: 18px;
+
+  --f-weight-base: 400;
+  --f-weight-descr: 400;
+  --f-weight-bold: 500;
+  --f-weight-h2: 800;
+  --f-weight-h1: 400;
   
   --l-height-base: 22px;
   --l-height-h3: 24px;
