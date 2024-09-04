@@ -33,4 +33,10 @@
   --v-spacing-l: 96px;
   --v-spacing-m : 56px;
   --v-spacing-s : 32px;
+
+  --f-size-base: 18px;
+  --f-size-h3: 20px;
+  --f-size-h2: 40px;
+  --f-size-h1: 64 px;
+
 }
