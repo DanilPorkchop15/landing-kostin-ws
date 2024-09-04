@@ -4,6 +4,7 @@
   font-size: var(--f-size-base);
   list-style: var(--l-height-base);
   font-weight: var(--f-weight-base);
+  color: var(--gray-blue-6);
 }
 
 .text.text_hint{
@@ -40,5 +41,14 @@
 .text.text_descr{
   font-weight: var(--f-weight-descr);
 }
+
+.text.text_blue-2{
+  color: var(--blue-2);
+}
+
+.text.text_gray-blue-5{
+  color: var(--gray-blue-5);
+}
+
 
 
