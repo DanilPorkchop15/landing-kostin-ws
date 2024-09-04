@@ -29,6 +29,9 @@
   --gradient-3: linear-gradient(90deg, #a4b8fc, #aedcfe);
   --gradient-4: linear-gradient(90deg, #986cc3, #56b7fe); 
 
-  
+  --v-spacing-xl: 144px;
+  --v-spacing-l: 96px;
+  --v-spacing-m : 56px;
+  --v-spacing-s : 32px;
 }
 
