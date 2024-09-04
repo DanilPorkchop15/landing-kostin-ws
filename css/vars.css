@@ -52,4 +52,9 @@
   --l-height-h1: 64px;
   --l-height-hint: 22px;
 
+  --border-base: 1px solid var(--gray-blue-3);
+  
+  --b-radius-1: 20px;
+  --b-radius-2 : 30px; 
+
 }
