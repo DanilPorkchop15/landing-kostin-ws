@@ -1,5 +1,18 @@
 @import url(./utils/vars.css);
 
+.page {
+  display: grid;
+  grid-template-columns: 32px 1fr 32px !important;
+}
+
+.page-wrapper {
+  grid-column: 2 / 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .main, 
+
 .text {
   font-size: var(--f-size-base);
   list-style: var(--l-height-base);
