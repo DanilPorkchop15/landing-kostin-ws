@@ -1,1 +1,29 @@
 @import url(./utils/vars.css);
+
+.text {
+  font-size: var(--f-size-base);
+  list-style: var(--l-height-base);
+  font-weight: var(--f-weight-base);
+}
+
+.text.text_hint{
+  font-size: var(--f-size-hint);
+  list-style: var(--l-height-hint);
+}
+
+.text.text_h1{
+  font-size: var(--f-size-h1);
+  list-style: var(--l-height-h1);
+}
+
+.text.text_h2{
+  font-size: var(--f-size-h2);
+  list-style: var(--l-height-h2);
+}
+
+.text.text_h3{
+  font-size: var(--f-size-h3);
+  list-style: var(--l-height-h3);
+}
+
+
