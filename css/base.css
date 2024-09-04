@@ -14,16 +14,31 @@
 .text.text_h1{
   font-size: var(--f-size-h1);
   list-style: var(--l-height-h1);
+  font-weight: var(--f-weight-h1);
 }
 
 .text.text_h2{
   font-size: var(--f-size-h2);
   list-style: var(--l-height-h2);
+  font-weight: var(--f-weight-h3);
 }
 
 .text.text_h3{
   font-size: var(--f-size-h3);
   list-style: var(--l-height-h3);
+}
+
+.text.text_u{
+  text-decoration: underline;
+}
+
+.text.text_bold{
+  font-weight: var(--f-weight-bold);
+}
+
+
+.text.text_descr{
+  font-weight: var(--f-weight-descr);
 }
 
 
