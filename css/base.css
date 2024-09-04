@@ -5,13 +5,13 @@
   grid-template-columns: 32px 1fr 32px !important;
 }
 
-.page-wrapper {
-  grid-column: 2 / 2;
+
+.header, .main, .footer {
   display: flex;
   flex-direction: column;
+  margin-inline: 32px;
 }
 
-.header, .main, 
 
 .text {
   font-size: var(--f-size-base);
