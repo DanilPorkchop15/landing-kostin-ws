@@ -37,7 +37,7 @@
   --f-size-base: 20px;
   --f-size-h3: 24px;
   --f-size-h2: 40px;
-  --f-size-h1: 64 px;
+  --f-size-h1: 64px;
   --f-size-hint: 18px;
 
   --f-weight-base: 400;
@@ -53,8 +53,10 @@
   --l-height-hint: 22px;
 
   --border-base: 1px solid var(--gray-blue-3);
+  --border-btn: 2px solid var(--blue-2);
   
   --b-radius-1: 20px;
   --b-radius-2 : 30px; 
+  --b-radius-btn: 12px; 
 
 }
