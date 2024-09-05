@@ -3,11 +3,109 @@
 .header, .main, .footer {
   display: flex;
   flex-direction: column;
-  padding-inline: 132px;
+  align-items: center;
 }
 
 .header {
   background: var(--white);
+  height: 820px;
+  display: flex;
+}
+
+.header-test{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+padding: var(--v-spacing-l) 32px 0;
+
+position: absolute;
+width: 488px;
+height: 790px;
+top: 0px;
+
+background: var(--white);
+border: var(--border-base);
+box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
+border-radius: 0px 0px var(--b-radius-1) var(--b-radius-1);
+
+}
+
+.header-test__info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 48px;
+
+  width: 392px;
+}
+
+.header-test__text {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+text-align: center;
+
+width: 392px;
+height: 336px;
+
+align-self: stretch;
+
+}
+
+.header-test-spec {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 156px;
+height: 24px;
+
+}
+
+.header-test__start-info {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 392px;
+height: 90px;
+
+align-self: stretch;
+
+}
+
+.header-test__button {
+  width: 392px;
+  height: 56px;
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-more-info {
+
+width: 424px;
+height: 124px;
+position: relative;
+}
+
+.test-more-info__text {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  text-align: center;
 }
 
 .main { 
@@ -21,6 +119,12 @@
 .main.main-about-test {
   background: var(--gray-blue-1);
 }
+.button {
+  background: var(--white);
+  border-radius: var(--b-radius-btn);
+  border: var(--border-btn);
+}
+
 .text {
   font-size: var(--f-size-base);
   list-style: var(--l-height-base);
@@ -69,6 +173,11 @@
 
 .text.text_gray-blue-5{
   color: var(--gray-blue-5);
+}
+
+
+.text.text_gray-blue-4{
+  color: var(--gray-blue-4);
 }
 
 
