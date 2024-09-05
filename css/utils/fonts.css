@@ -9,9 +9,9 @@
 }
 
 @font-face {
-  font-family: Futura;
+  font-family: Futura Medium;
   font-weight: 700;
-  font-style: normal;
+  font-style: bold;
   src: local("Futura"),
     url(../../fonts/futura-pt-bold-589e44b6aacd3.woff) format("woff"),
     url(../../fonts/futura-pt-bold-589e44b6aacd3.eot) format("eot");
