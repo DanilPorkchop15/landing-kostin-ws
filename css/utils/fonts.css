@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: Futura;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   src: local("Futura"),
     url(../../fonts/futura-pt-bold-589e44b6aacd3.woff) format("woff"),
@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: Futura Cond;
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
   src: local("Futura Cond"),
     url(../../fonts/Futura\ PT_Cond\ Medium.woff) format("woff"),
@@ -35,6 +35,6 @@
   font-style: normal;
   src: local("Futura"), url(../../fonts/Futura\ PT_Book.woff) format("woff"),
     url(../../fonts/Futura\ PT_Cond\ Medium.woff2) format("woff2"),
-    url(../../fonts/Futura\ PT_Book.eot) format("eot");
+    url(../fonts/Futura\ PT_Book.eot) format("eot");
   font-display: swap;
 }

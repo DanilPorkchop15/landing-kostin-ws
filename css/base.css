@@ -1,15 +1,22 @@
 @import url(./utils/vars.css);
 
-.header, .main, .footer {
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-inline: 32px;
+}
+
+.header, .main, .footer {
+  max-width: 1176px;
+  width: 100%;
 }
 
 .header {
   background: var(--white);
   height: 820px;
   display: flex;
+  position: relative;
 }
 
 .header-test{
@@ -18,14 +25,13 @@ flex-direction: column;
 align-items: center;
 justify-content: space-between;
 padding: var(--v-spacing-l) 32px 0;
+z-index: 1;
 
-position: absolute;
 width: 488px;
-height: 790px;
-top: 0px;
 
 background: var(--white);
 border: var(--border-base);
+border-top: none;
 box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
 border-radius: 0px 0px var(--b-radius-1) var(--b-radius-1);
 
@@ -37,7 +43,6 @@ border-radius: 0px 0px var(--b-radius-1) var(--b-radius-1);
   align-items: center;
   padding: 0px;
   gap: 48px;
-
   width: 392px;
 }
 
@@ -91,7 +96,16 @@ align-self: stretch;
   justify-content: center;
   align-items: center;
 }
+.header-logo {
 
+position: absolute;
+width: 112px;
+height: 80px;
+top: 64px;
+right: 0px;
+z-index: 1;
+
+}
 .test-more-info {
 
 width: 424px;
@@ -106,6 +120,13 @@ position: relative;
   transform: translateX(-50%);
 
   text-align: center;
+}
+
+.header-graphics{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
 }
 
 .main { 
@@ -161,12 +182,12 @@ position: relative;
 }
 
 .text.text_bold{
-  font-weight: var(--f-weight-bold);
+  font-weight: bold
 }
 
 
 .text.text_descr{
-  font-weight: var(--f-weight-descr);
+  font-family: 'Futura Book';
 }
 
 .text.text_blue-2{
@@ -181,6 +202,5 @@ position: relative;
 .text.text_gray-blue-4{
   color: var(--gray-blue-4);
 }
-
 
 
