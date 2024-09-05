@@ -130,6 +130,7 @@ position: relative;
   list-style: var(--l-height-base);
   font-weight: var(--f-weight-base);
   color: var(--gray-blue-6);
+  font-family: "Futura";
 }
 
 .text.text_hint{
@@ -141,6 +142,7 @@ position: relative;
   font-size: var(--f-size-h1);
   list-style: var(--l-height-h1);
   font-weight: var(--f-weight-h1);
+  font-family: "Futura Cond";
 }
 
 .text.text_h2{
