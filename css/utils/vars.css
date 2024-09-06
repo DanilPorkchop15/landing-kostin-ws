@@ -39,7 +39,7 @@
   --f-size-h2: 40px;
   --f-size-h1: 64px;
   --f-size-hint: 18px;
-
+  
   --f-weight-base: 400;
   --f-weight-descr: 400;
   --f-weight-bold: 500;
@@ -51,6 +51,18 @@
   --l-height-h2: 48px;
   --l-height-h1: 64px;
   --l-height-hint: 22px;
+
+  --f-size-base-sm: 18px;
+  --f-size-h3-sm: 20px;
+  --f-size-h2-sm: 32px;
+  --f-size-h1-sm: 44px;
+  --f-size-hint-sm: 18px;
+  
+  --l-height-base-sm: 22px;
+  --l-height-h3-sm: 26px;
+  --l-height-h2-sm: 38px;
+  --l-height-h1-sm: 44px;
+  --l-height-hint-sm: 22px;
 
   --border-base: 1px solid var(--gray-blue-3);
   --border-btn: 2px solid var(--blue-2);

@@ -4,7 +4,6 @@
   .main__wrapper,
   .footer__wrapper {
     padding-inline: 24px;
-    max-width: 931px;
   }
   .header__wrapper {
     padding: 0;
@@ -63,13 +62,12 @@
     flex-wrap: wrap;
     justify-content: center;
     width: min-content;
-    min-width: 510px;
+    min-width: 500px;
     row-gap: 16px;
   }
   .main-partners__partners {
-    flex-basis: 1000px;
+    height: 67.61px;
   }
-
   #pain1 {
     width: 12%;
   }

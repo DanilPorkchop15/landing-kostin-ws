@@ -302,6 +302,7 @@ a {
 .about-test-list {
   display: flex;
   gap: 24px;
+  padding: 0;
 }
 .about-test-list__item {
   border: var(--border-base);
@@ -346,8 +347,9 @@ a {
   flex-wrap: wrap;
   row-gap: var(--v-spacing-m);
   column-gap: 24px;
-  align-items: top;
+  align-items: start;
   justify-content: center;
+  padding: 0;
 }
 .main-experts-list__item {
   width: calc(25% - 25px);
@@ -391,6 +393,7 @@ a {
   justify-content: center;
   align-items: center;
   position: relative;
+  
 }
 .main-experts-ceo__info {
   display: flex;
