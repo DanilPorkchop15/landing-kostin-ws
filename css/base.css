@@ -1,7 +1,9 @@
 @import url(./utils/vars.css);
 
 /* =================[  general  ]==================== */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -515,4 +517,10 @@ body {
 .footer-nav__link {
   display: flex;
   gap: 12px;
+}
+.footer-nav__designer {
+  transition: all 0.3s ease-in-out;
+}
+.footer-nav__designer:hover {
+  opacity: 0.8;
 }
