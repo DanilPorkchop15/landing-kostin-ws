@@ -12,12 +12,7 @@ body {
 
 .header,
 .main,
-.footer,
-.main__section {
-  width: 100%;
-}
-
-.header,
+.footer, 
 .main__wrapper,
 .footer__wrapper {
   max-width: 1176px;
@@ -122,7 +117,7 @@ body {
   border: var(--border-base);
   border-top: none;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
-  border-radius: 0px 0px var(--b-radius-1) var(--b-radius-1);
+  border-radius: 0px 0px var(--b-radius-1) var(--b-radius-1); 
 }
 .header-test__info {
   display: flex;
@@ -315,6 +310,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: var(--shadow-1);
 }
 .about-test-list__info {
   display: flex;
@@ -364,6 +360,7 @@ body {
   margin-bottom: 24px;
   overflow: hidden;
   border: var(--border-base);
+  box-shadow: var(--shadow-1);
 }
 
 .main-experts-list__image {
