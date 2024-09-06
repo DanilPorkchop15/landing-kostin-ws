@@ -39,34 +39,39 @@ body {
 
 .text {
   font-size: var(--f-size-base);
-  list-style: var(--l-height-base);
+  line-height: var(--l-height-base);
   font-weight: var(--f-weight-base);
   color: var(--gray-blue-6);
   font-family: "Futura";
   white-space: initial;
+  letter-spacing: 0.0025em;
+  
 }
 
 .text.text_hint {
   font-size: var(--f-size-hint);
-  list-style: var(--l-height-hint);
+  line-height: var(--l-height-hint);
+  font-family: 'Futura Book';
 }
 
 .text.text_h1 {
   font-size: var(--f-size-h1);
-  list-style: var(--l-height-h1);
+  line-height: var(--l-height-h1);
   font-weight: var(--f-weight-h1);
   font-family: "Futura Cond";
 }
 
 .text.text_h2 {
   font-size: var(--f-size-h2);
-  list-style: var(--l-height-h2);
-  font-weight: var(--f-weight-h3);
+  line-height: var(--l-height-h2);
+  font-weight: var(--f-weight-h2);
+  text-transform: uppercase;
 }
 
 .text.text_h3 {
   font-size: var(--f-size-h3);
-  list-style: var(--l-height-h3);
+  line-height: var(--l-height-h3);
+  font-family: "Futura Demi";
 }
 
 .text.text_u {
@@ -74,7 +79,7 @@ body {
 }
 
 .text.text_bold {
-  font-weight: bold;
+  font-family: 'Futura Demi';
 }
 
 .text.text_descr {
@@ -276,6 +281,7 @@ body {
 .main-pain__summary {
   text-align: center;
   max-width: 768px;
+  line-height: 32px;
 }
 
 .main-about-test {

@@ -7,9 +7,18 @@
     url(../../fonts/Futura\ PT_Medium.eot) format("eot");
   font-display: swap;
 }
+@font-face {
+  font-family: Futura;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Futura"), url(../fonts/Futura\ PT_Medium.woff) format("woff"),
+    url(../../fonts/Futura\ PT_Cond\ Medium.woff2) format("woff2"),
+    url(../../fonts/Futura\ PT_Medium.eot) format("eot");
+  font-display: swap;
+}
 
 @font-face {
-  font-family: Futura Medium;
+  font-family: Futura;
   font-weight: 700;
   font-style: bold;
   src: local("Futura"),
@@ -34,7 +43,17 @@
   font-weight: 400;
   font-style: normal;
   src: local("Futura"), url(../../fonts/Futura\ PT_Book.woff) format("woff"),
-    url(../../fonts/Futura\ PT_Cond\ Medium.woff2) format("woff2"),
+    url(../../fonts/Futura\ PT_Book.woff2) format("woff2"),
     url(../fonts/Futura\ PT_Book.eot) format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Futura Demi;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Futura"), url(../../fonts/Futura\ PT_Demi.woff) format("woff"),
+    url(../../fonts/Futura\ PT_Cond\ Demi.woff2) format("woff2"),
+    url(../fonts/Futura\ PT_Demi.eot) format("eot");
   font-display: swap;
 }
