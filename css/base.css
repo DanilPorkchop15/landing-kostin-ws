@@ -10,22 +10,20 @@ body {
   align-items: center;
 }
 
-.header,
-.main,
 .main__wrapper,
-.footer__wrapper {
+.footer__wrapper,
+.header__wrapper {
   max-width: 1176px;
   width: 100%;
-  margin-left: 32px;
-  margin-right: 32px;
+  padding-inline: 32px;
 }
 
 .main__section,
-.footer {
+.footer, 
+.header {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 .button {
@@ -55,6 +53,7 @@ body {
   line-height: var(--l-height-h1);
   font-weight: var(--f-weight-h1);
   font-family: "Futura Cond";
+  text-transform: uppercase;
 }
 
 .text.text_h2 {
@@ -95,14 +94,14 @@ body {
 }
 
 /* =================[  header  ]==================== */
-
-.header {
+.header__wrapper {
+  width: 100%;
   background: var(--white);
   height: 820px;
   display: flex;
+  padding-inline: 32px;
   position: relative;
   margin-bottom: var(--v-spacing-l);
-  box-sizing: border;
 }
 
 .header-test {
@@ -182,7 +181,7 @@ body {
 .header-graphics {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 32px;
   z-index: 0;
   width: 676px;
   height: 740px;
@@ -193,7 +192,7 @@ body {
   width: 112px;
   height: 80px;
   top: 64px;
-  right: 0px;
+  right: 32px;
   z-index: 1;
 }
 
