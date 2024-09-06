@@ -45,13 +45,12 @@ body {
   font-family: "Futura";
   white-space: initial;
   letter-spacing: 0.0025em;
-  
 }
 
 .text.text_hint {
   font-size: var(--f-size-hint);
   line-height: var(--l-height-hint);
-  font-family: 'Futura Book';
+  font-family: "Futura Book";
 }
 
 .text.text_h1 {
@@ -79,7 +78,7 @@ body {
 }
 
 .text.text_bold {
-  font-family: 'Futura Demi';
+  font-family: "Futura Demi";
 }
 
 .text.text_descr {
@@ -490,32 +489,30 @@ body {
   margin-block: 80px;
 }
 .footer-nav__logo {
-width: 102px;
-height: 74px;
-align-self: flex-end
+  width: 102px;
+  height: 74px;
+  align-self: flex-end;
 }
-.footer-nav__info{
+.footer-nav__info {
   display: flex;
   flex-direction: column;
   gap: 36px;
 }
-.footer-nav__links{
+.footer-nav__links {
   display: flex;
   gap: 150px;
 }
-.footer-nav__social{
+.footer-nav__social {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
 .footer-nav__wrapper {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.footer-nav__link{
+.footer-nav__link {
   display: flex;
   gap: 12px;
 }
-
