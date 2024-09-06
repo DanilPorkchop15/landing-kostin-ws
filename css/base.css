@@ -117,7 +117,7 @@ a {
   background: var(--white);
   border: var(--border-base);
   border-top: none;
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow-1);
   border-radius: 0px 0px var(--b-radius-1) var(--b-radius-1);
 }
 .header-test__info {
@@ -196,7 +196,7 @@ a {
   width: 112px;
   height: 80px;
   top: 64px;
-  right: 32px;
+  right: 48px;
   z-index: 1;
 }
 
