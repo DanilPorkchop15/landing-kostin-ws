@@ -9,7 +9,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
+a {
+  display: flex;
+}
 .main__wrapper,
 .footer__wrapper,
 .header__wrapper {
