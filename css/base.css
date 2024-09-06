@@ -346,19 +346,18 @@ a {
   flex-wrap: wrap;
   row-gap: var(--v-spacing-m);
   column-gap: 24px;
-  align-items: center;
+  align-items: top;
   justify-content: center;
 }
 .main-experts-list__item {
-  width: 276px;
+  width: calc(25% - 25px);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .main-experts-list__image-wrapper {
-  height: 196px;
-  width: 196px;
-  box-shadow: 0px 20px 40px 0px #0000000f;
+  width: calc(100% - 80px);
+  aspect-ratio: 1;
   border-radius: 50px;
   margin-bottom: 24px;
   overflow: hidden;
@@ -367,8 +366,8 @@ a {
 }
 
 .main-experts-list__image {
-  width: 196px;
-  height: 196px;
+  width: 100%;
+  height : 100%;
   object-fit: cover;
 }
 .main-experts-list__image.main-experts-list__image_person {
@@ -396,6 +395,7 @@ a {
 .main-experts-ceo__info {
   display: flex;
   gap: 40px;
+  margin-inline: 40px;
 }
 .main-experts-ceo__person-data {
   display: flex;
@@ -437,7 +437,7 @@ a {
 
 .footer {
   background: var(--gray-blue-1);
-  padding: var(--v-spacing-l) 0 80px 0;
+  padding-top: var(--v-spacing-l);
 }
 .footer__wrapper {
   display: flex;
@@ -446,7 +446,6 @@ a {
   gap: 80px;
 }
 .footer-test {
-  width: 100%;
   position: relative;
   display: flex;
   width: 476px;
