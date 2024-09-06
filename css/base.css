@@ -179,7 +179,9 @@ a {
   transform: translateX(-50%);
   text-align: center;
 }
-
+.test-more-info__more{
+  font-family: "Futura Demi";
+}
 .header-graphics {
   position: absolute;
   bottom: 0;
