@@ -91,4 +91,26 @@
     flex-grow: 0;
     flex-basis: calc(50% - 80px - 16px);
   }
+
+  .main-experts-list__item {
+    display: flex;
+    width: calc(33% - 25px);
+    flex-direction: column;
+    align-items: center;
+  } 
+  .footer-test {
+    width: 348px;
+    
+  }
+  .footer-test__wrapper {
+    justify-content: space-between;
+  }
+  .footer-test__button {
+    width: 348px;
+  }
+  .footer-test__figure {
+    position: static;
+    width: 348px;
+    height: 353px;
+  }
 }
