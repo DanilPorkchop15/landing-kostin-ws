@@ -1,0 +1,114 @@
+@import url(./utils/vars.css);
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .main__wrapper,
+  .footer__wrapper {
+    padding-inline: 24px;
+  }
+  .header__wrapper {
+    padding: 0;
+    width: 100%;
+    background: var(--white);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  .header-test {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 640px;
+    padding: calc(var(--v-spacing-l) + 40px) 48px 0;
+  }
+  .header-test__info,
+  .header-test__start-info,
+  .header-test__text {
+    width: 100%;
+    height: auto;
+  }
+  .header-test__title {
+    width: 80%;
+  }
+  .header-test__descrption {
+    max-width: 392px;
+  }
+  .header-test__info {
+    padding-bottom: 48px;
+  }
+  .header-test__button {
+    margin-inline: auto;
+  }
+  .header-graphics {
+    margin-top: 272px;
+    position: static;
+    width: calc(100% + 112px);
+    height: auto;
+  }
+  .header-logo {
+    top: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 77.45px;
+    height: 56px;
+  }
+
+  .main-partners__list {
+    gap: 60.75px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: min-content;
+    min-width: 500px;
+    row-gap: 16px;
+  }
+  .main-partners__partners {
+    height: 67.61px;
+  }
+  #pain1 {
+    width: 12%;
+  }
+  #pain2 {
+    width: 45%;
+  }
+  #pain3,
+  #pain4,
+  #pain5,
+  #pain6 {
+    width: 25%;
+  }
+
+  .about-test-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-test-list__item {
+    flex-grow: 0;
+    flex-basis: calc(50% - 80px - 16px);
+  }
+
+  .main-experts-list__item {
+    display: flex;
+    width: calc(33% - 25px);
+    flex-direction: column;
+    align-items: center;
+  } 
+  .footer-test {
+    width: 348px;
+    
+  }
+  .footer-test__wrapper {
+    justify-content: space-between;
+  }
+  .footer-test__button {
+    width: 348px;
+  }
+  .footer-test__figure {
+    position: static;
+    width: 348px;
+    height: 353px;
+  }
+}
