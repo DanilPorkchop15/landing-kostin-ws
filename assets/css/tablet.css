@@ -1,11 +1,10 @@
 @import url(./utils/vars.css);
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .main__wrapper,
-  .footer__wrapper {
+  .wrapper{
     padding-inline: 24px;
   }
-  .header__wrapper {
+  .wrapper.header__wrapper {
     padding: 0;
     width: 100%;
     background: var(--white);

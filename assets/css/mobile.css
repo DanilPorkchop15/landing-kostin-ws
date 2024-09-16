@@ -25,11 +25,10 @@
     font-size: var(--f-size-h3-sm);
     line-height: var(--l-height-h3-sm);
   }
-  .main__wrapper,
-  .footer__wrapper {
+  .wrapper {
     padding-inline: 16px;
   }
-  .header__wrapper {
+  .wrapper.header__wrapper {
     padding: 0;
     width: 100%;
     background: var(--white);
