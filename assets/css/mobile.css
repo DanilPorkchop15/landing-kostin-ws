@@ -87,7 +87,7 @@
     height: 52.89px;
   }
   .main-pain-list__item {
-    width: 100% !important;
+    flex-basis: 100% !important;
     height: auto;
   }
 

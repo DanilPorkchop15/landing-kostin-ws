@@ -1,15 +1,6 @@
 @import url(./utils/vars.css);
 
 /* =================[  general  ]==================== */
-html {
-  scroll-behavior: smooth;
-}
-
-.wrapper {
-  max-width: 1176px;
-  width: 100%;
-  padding-inline: 32px;
-}
 
 .main__section,
 .footer,
@@ -124,8 +115,8 @@ html {
 .main {
   background: var(--white);
 }
-.main__section 
-.main-partners {
+
+.main-partners > .wrapper.main__wrapper {
   margin-bottom: var(--v-spacing-xl);
 }
 .main-partners > .main__wrapper {
@@ -141,7 +132,7 @@ html {
   height: 80px;
 }
 
-.main-pain > .main__wrapper {
+.main-pain > .wrapper.main__wrapper {
   gap: var(--v-spacing-l);
   margin-bottom: var(--v-spacing-xl);
 }
@@ -157,20 +148,17 @@ html {
   border: var(--border-base);
   border-radius: var(--b-radius-1);
   padding: 32px;
-  height: calc(272px - 64px);
+  height: 208px;
   flex-grow: 1;
   justify-content: space-between;
 }
-#pain1 {
+.main-pain-list__item:nth-child(1) {
   width: 15%;
 }
-#pain3 {
+.main-pain-list__item:nth-child(3) {
   width: 35%;
 }
-#pain2,
-#pain4,
-#pain5,
-#pain6 {
+.main-pain-list__item:not(:nth-child(1)):not(:nth-child(3)) {
   width: 20%;
 }
 
@@ -234,6 +222,7 @@ html {
   padding: 0;
 }
 .main-experts-list__item {
+  text-align: center;
   width: calc(25% - 25px);
 }
 .main-experts-list__image-wrapper {
@@ -269,7 +258,6 @@ html {
   
 }
 .main-experts-ceo__info {
-  display: flex;
   gap: 40px;
   margin-inline: 40px;
 }
@@ -288,14 +276,10 @@ html {
   height: 152px;
 }
 .main-experts-ceo__data {
-  display: flex;
-  flex-direction: column;
   gap: 4px;
 }
 .main-experts-ceo__descr {
   text-align: left;
-  display: flex;
-  flex-direction: column;
   gap: 20px;
   max-width: 480px;
 }
