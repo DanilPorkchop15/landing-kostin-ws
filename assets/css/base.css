@@ -10,7 +10,6 @@
   justify-content: center;
 }
 
-
 /* =================[  header  ]==================== */
 .wrapper.header__wrapper {
   width: 100%;
@@ -88,7 +87,7 @@
   transform: translateX(-50%);
   text-align: center;
 }
-.test-more-info__more{
+.test-more-info__more {
   font-family: "Futura Demi";
 }
 .header-graphics {
@@ -231,7 +230,7 @@
   margin-bottom: 24px;
   overflow: hidden;
   border: var(--border-base);
-  height : 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -244,7 +243,6 @@
   border-radius: var(--b-radius-1);
   padding-block: var(--v-spacing-m);
   position: relative;
-  
 }
 .main-experts-ceo__info {
   gap: 40px;

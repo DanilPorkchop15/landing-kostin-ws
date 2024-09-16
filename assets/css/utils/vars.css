@@ -27,25 +27,25 @@
   --gradient-1: linear-gradient(90deg, #f9cabf, #bbbcf5);
   --gradient-2: linear-gradient(90deg, #ddc3e2, #dce8f5);
   --gradient-3: linear-gradient(90deg, #a4b8fc, #aedcfe);
-  --gradient-4: linear-gradient(90deg, #986cc3, #56b7fe); 
+  --gradient-4: linear-gradient(90deg, #986cc3, #56b7fe);
 
   --v-spacing-xl: 144px;
   --v-spacing-l: 96px;
-  --v-spacing-m : 56px;
-  --v-spacing-s : 32px;
+  --v-spacing-m: 56px;
+  --v-spacing-s: 32px;
 
   --f-size-base: 20px;
   --f-size-h3: 24px;
   --f-size-h2: 40px;
   --f-size-h1: 64px;
   --f-size-hint: 18px;
-  
+
   --f-weight-base: 400;
   --f-weight-descr: 400;
   --f-weight-bold: 500;
   --f-weight-h2: 800;
   --f-weight-h1: 400;
-  
+
   --l-height-base: 22px;
   --l-height-h3: 24px;
   --l-height-h2: 48px;
@@ -57,7 +57,7 @@
   --f-size-h2-sm: 32px;
   --f-size-h1-sm: 44px;
   --f-size-hint-sm: 18px;
-  
+
   --l-height-base-sm: 22px;
   --l-height-h3-sm: 26px;
   --l-height-h2-sm: 38px;
@@ -66,10 +66,10 @@
 
   --border-base: 1px solid var(--gray-blue-3);
   --border-btn: 2px solid var(--blue-2);
-  
+
   --b-radius-1: 20px;
-  --b-radius-2 : 56px; 
-  --b-radius-btn: 12px; 
+  --b-radius-2: 56px;
+  --b-radius-btn: 12px;
 
   --shadow-1: 0px 20px 40px 0px rgba(0, 0, 0, 0.06);
 }
