@@ -224,17 +224,13 @@
   text-align: center;
   width: calc(25% - 25px);
 }
-.main-experts-list__image-wrapper {
+.main-experts-list__image {
   width: calc(100% - 80px);
   aspect-ratio: 1;
   border-radius: 50px;
   margin-bottom: 24px;
   overflow: hidden;
   border: var(--border-base);
-}
-
-.main-experts-list__image {
-  width: 100%;
   height : 100%;
   object-fit: cover;
 }
@@ -257,16 +253,12 @@
 .main-experts-ceo__person-data {
   gap: 24px;
 }
-.main-experts-ceo__image-wrapper {
+.main-experts-ceo__image {
   width: 152px;
   height: 152px;
   border: var(--border-base);
   border-radius: var(--b-radius-2);
   overflow: hidden;
-}
-.main-experts-ceo__image {
-  width: 152px;
-  height: 152px;
 }
 .main-experts-ceo__data {
   gap: 4px;
