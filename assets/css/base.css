@@ -239,13 +239,7 @@
   height : 100%;
   object-fit: cover;
 }
-.main-experts-list__image.main-experts-list__image_person {
-  width: calc(100% + 40px);
-  height: calc(100% + 100px);
-  object-fit: cover;
-  margin-left: -20px;
-  margin-top: -20px;
-}
+
 .main-experts-list__info {
   gap: 4px;
 }
