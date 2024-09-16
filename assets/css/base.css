@@ -205,7 +205,7 @@ body {
 .main {
   background: var(--white);
 }
-.main_wrapper {
+.main__wrapper {
   background: var(--gray-blue-1);
 }
 .main-partners {
